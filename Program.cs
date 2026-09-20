@@ -15,9 +15,9 @@
             Book book1 = new Book();
 
             Console.WriteLine(book.copiesInStock);
+            #endregion
 
-            
-            
+
 
 
         }
