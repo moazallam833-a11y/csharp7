@@ -6,9 +6,9 @@ namespace csharp7
 {
     enum Genre
     {
-        Fiction,
-        NonFiction,
-        Science
+        Fiction = 0,
+        NonFiction=1,
+        Science=2
     }
     class Book
     {
