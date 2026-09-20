@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             #region Question 1
@@ -16,6 +17,24 @@
 
             Console.WriteLine(book.copiesInStock);
             #endregion
+
+            #region Question 3
+            Book book2   = new Book();
+
+            book2.Title = "C# Basics";
+
+            Console.WriteLine(book2.Title);
+            #endregion
+
+            #region Question 4
+            Book book3 = new Book();
+
+             
+            book.Genre = Genre.Science;
+
+            Console.WriteLine(book.Genre);
+            #endregion
+
 
 
 

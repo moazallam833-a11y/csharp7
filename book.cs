@@ -4,9 +4,15 @@ using System.Text;
 
 namespace csharp7
 {
-      class Book
+    enum Genre
     {
-        public string Title;
+        Fiction,
+        NonFiction,
+        Science
+    }
+    class Book
+    {
+        public Genre Genre { get; set; }
     }
 }
  
