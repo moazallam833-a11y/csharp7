@@ -47,6 +47,14 @@
 
             Console.WriteLine(genre);
             #endregion
+            #region Question7
+            Genre genre1 = Genre.Fiction;
+
+            string genreText = genre.ToString();
+
+            Console.WriteLine(genreText);
+            #endregion
+
 
 
 
