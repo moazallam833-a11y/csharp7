@@ -6,6 +6,7 @@ namespace csharp7
 {
       class Book
     {
-        private string password = "secret";
+        internal int copiesInStock = 5;
     }
 }
+ 
