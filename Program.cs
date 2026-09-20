@@ -61,7 +61,20 @@
 
             Console.WriteLine(genre2    );
             #endregion
+            #region Q9
+            string genreText1 = "Mystery";
 
+            Genre genre3;
+
+            if (Enum.TryParse(genreText1, out genre3))
+            {
+                Console.WriteLine(genre3);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+            #endregion
 
 
 
